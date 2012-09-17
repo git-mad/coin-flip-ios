@@ -21,6 +21,7 @@
 		876ECADB1607ABBA007EE9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECAB91607ABB9007EE9B6 /* Foundation.framework */; };
 		876ECAE31607ABBA007EE9B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876ECAE11607ABBA007EE9B6 /* InfoPlist.strings */; };
 		876ECAE61607ABBA007EE9B6 /* coin_flip_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876ECAE51607ABBA007EE9B6 /* coin_flip_iosTests.m */; };
+		878254281607B64E005CD892 /* GMFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878254271607B64E005CD892 /* GMFlipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		876ECAE21607ABBA007EE9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		876ECAE41607ABBA007EE9B6 /* coin_flip_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coin_flip_iosTests.h; sourceTree = "<group>"; };
 		876ECAE51607ABBA007EE9B6 /* coin_flip_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coin_flip_iosTests.m; sourceTree = "<group>"; };
+		878254261607B64E005CD892 /* GMFlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFlipViewController.h; sourceTree = "<group>"; };
+		878254271607B64E005CD892 /* GMFlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFlipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				876ECACF1607ABB9007EE9B6 /* GMViewController.h */,
 				876ECAD01607ABB9007EE9B6 /* GMViewController.m */,
 				876ECABE1607ABB9007EE9B6 /* Supporting Files */,
+				878254261607B64E005CD892 /* GMFlipViewController.h */,
+				878254271607B64E005CD892 /* GMFlipViewController.m */,
 			);
 			path = "coin-flip-ios";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				876ECAC41607ABB9007EE9B6 /* main.m in Sources */,
 				876ECAC81607ABB9007EE9B6 /* GMAppDelegate.m in Sources */,
 				876ECAD11607ABB9007EE9B6 /* GMViewController.m in Sources */,
+				878254281607B64E005CD892 /* GMFlipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +455,7 @@
 				876ECAEB1607ABBA007EE9B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876ECAEC1607ABBA007EE9B6 /* Build configuration list for PBXNativeTarget "coin-flip-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +464,7 @@
 				876ECAEE1607ABBA007EE9B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

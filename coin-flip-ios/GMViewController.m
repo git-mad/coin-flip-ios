@@ -7,6 +7,7 @@
 //
 
 #import "GMViewController.h"
+#import "GMFlipViewController.h"
 
 @interface GMViewController ()
 
@@ -33,6 +34,19 @@
     } else {
         return YES;
     }
+}
+
+//*****
+// Called when this view is about to segue to another view.  In this case we assume it's seguing to
+// the GMFlipViewController, but if we had multiple views, we could differentiate them by checking segue.identifier
+//*****
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    GMFlipViewController *flipVc = (GMFlipViewController *) segue.destinationViewController;
+    //randomize to "flip the coin"
+    int flip = rand() % 2;
+    //set the isHeads property in the flip results view controller
+    flipVc.isHeads=flip == 0;
 }
 
 @end
