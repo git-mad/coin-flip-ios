@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876ECAB81607ABB9007EE9B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECAB71607ABB9007EE9B6 /* UIKit.framework */; };
+		876ECABA1607ABB9007EE9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECAB91607ABB9007EE9B6 /* Foundation.framework */; };
+		876ECABC1607ABB9007EE9B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECABB1607ABB9007EE9B6 /* CoreGraphics.framework */; };
+		876ECAC21607ABB9007EE9B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876ECAC01607ABB9007EE9B6 /* InfoPlist.strings */; };
+		876ECAC41607ABB9007EE9B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876ECAC31607ABB9007EE9B6 /* main.m */; };
+		876ECAC81607ABB9007EE9B6 /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876ECAC71607ABB9007EE9B6 /* GMAppDelegate.m */; };
+		876ECACB1607ABB9007EE9B6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876ECAC91607ABB9007EE9B6 /* MainStoryboard_iPhone.storyboard */; };
+		876ECACE1607ABB9007EE9B6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876ECACC1607ABB9007EE9B6 /* MainStoryboard_iPad.storyboard */; };
+		876ECAD11607ABB9007EE9B6 /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876ECAD01607ABB9007EE9B6 /* GMViewController.m */; };
+		876ECAD91607ABBA007EE9B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECAD81607ABBA007EE9B6 /* SenTestingKit.framework */; };
+		876ECADA1607ABBA007EE9B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECAB71607ABB9007EE9B6 /* UIKit.framework */; };
+		876ECADB1607ABBA007EE9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876ECAB91607ABB9007EE9B6 /* Foundation.framework */; };
+		876ECAE31607ABBA007EE9B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876ECAE11607ABBA007EE9B6 /* InfoPlist.strings */; };
+		876ECAE61607ABBA007EE9B6 /* coin_flip_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876ECAE51607ABBA007EE9B6 /* coin_flip_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876ECADC1607ABBA007EE9B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876ECAAA1607ABB9007EE9B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876ECAB21607ABB9007EE9B6;
+			remoteInfo = "coin-flip-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876ECAB31607ABB9007EE9B6 /* coin-flip-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coin-flip-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876ECAB71607ABB9007EE9B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		876ECAB91607ABB9007EE9B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		876ECABB1607ABB9007EE9B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		876ECABF1607ABB9007EE9B6 /* coin-flip-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coin-flip-ios-Info.plist"; sourceTree = "<group>"; };
+		876ECAC11607ABB9007EE9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		876ECAC31607ABB9007EE9B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		876ECAC51607ABB9007EE9B6 /* coin-flip-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coin-flip-ios-Prefix.pch"; sourceTree = "<group>"; };
+		876ECAC61607ABB9007EE9B6 /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
+		876ECAC71607ABB9007EE9B6 /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
+		876ECACA1607ABB9007EE9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		876ECACD1607ABB9007EE9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		876ECACF1607ABB9007EE9B6 /* GMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMViewController.h; sourceTree = "<group>"; };
+		876ECAD01607ABB9007EE9B6 /* GMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMViewController.m; sourceTree = "<group>"; };
+		876ECAD71607ABBA007EE9B6 /* coin-flip-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coin-flip-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876ECAD81607ABBA007EE9B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		876ECAE01607ABBA007EE9B6 /* coin-flip-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coin-flip-iosTests-Info.plist"; sourceTree = "<group>"; };
+		876ECAE21607ABBA007EE9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		876ECAE41607ABBA007EE9B6 /* coin_flip_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coin_flip_iosTests.h; sourceTree = "<group>"; };
+		876ECAE51607ABBA007EE9B6 /* coin_flip_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coin_flip_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876ECAB01607ABB9007EE9B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876ECAB81607ABB9007EE9B6 /* UIKit.framework in Frameworks */,
+				876ECABA1607ABB9007EE9B6 /* Foundation.framework in Frameworks */,
+				876ECABC1607ABB9007EE9B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876ECAD31607ABBA007EE9B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876ECAD91607ABBA007EE9B6 /* SenTestingKit.framework in Frameworks */,
+				876ECADA1607ABBA007EE9B6 /* UIKit.framework in Frameworks */,
+				876ECADB1607ABBA007EE9B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876ECAA81607ABB9007EE9B6 = {
+			isa = PBXGroup;
+			children = (
+				876ECABD1607ABB9007EE9B6 /* coin-flip-ios */,
+				876ECADE1607ABBA007EE9B6 /* coin-flip-iosTests */,
+				876ECAB61607ABB9007EE9B6 /* Frameworks */,
+				876ECAB41607ABB9007EE9B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876ECAB41607ABB9007EE9B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876ECAB31607ABB9007EE9B6 /* coin-flip-ios.app */,
+				876ECAD71607ABBA007EE9B6 /* coin-flip-iosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876ECAB61607ABB9007EE9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876ECAB71607ABB9007EE9B6 /* UIKit.framework */,
+				876ECAB91607ABB9007EE9B6 /* Foundation.framework */,
+				876ECABB1607ABB9007EE9B6 /* CoreGraphics.framework */,
+				876ECAD81607ABBA007EE9B6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876ECABD1607ABB9007EE9B6 /* coin-flip-ios */ = {
+			isa = PBXGroup;
+			children = (
+				876ECAC61607ABB9007EE9B6 /* GMAppDelegate.h */,
+				876ECAC71607ABB9007EE9B6 /* GMAppDelegate.m */,
+				876ECAC91607ABB9007EE9B6 /* MainStoryboard_iPhone.storyboard */,
+				876ECACC1607ABB9007EE9B6 /* MainStoryboard_iPad.storyboard */,
+				876ECACF1607ABB9007EE9B6 /* GMViewController.h */,
+				876ECAD01607ABB9007EE9B6 /* GMViewController.m */,
+				876ECABE1607ABB9007EE9B6 /* Supporting Files */,
+			);
+			path = "coin-flip-ios";
+			sourceTree = "<group>";
+		};
+		876ECABE1607ABB9007EE9B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876ECABF1607ABB9007EE9B6 /* coin-flip-ios-Info.plist */,
+				876ECAC01607ABB9007EE9B6 /* InfoPlist.strings */,
+				876ECAC31607ABB9007EE9B6 /* main.m */,
+				876ECAC51607ABB9007EE9B6 /* coin-flip-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		876ECADE1607ABBA007EE9B6 /* coin-flip-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				876ECAE41607ABBA007EE9B6 /* coin_flip_iosTests.h */,
+				876ECAE51607ABBA007EE9B6 /* coin_flip_iosTests.m */,
+				876ECADF1607ABBA007EE9B6 /* Supporting Files */,
+			);
+			path = "coin-flip-iosTests";
+			sourceTree = "<group>";
+		};
+		876ECADF1607ABBA007EE9B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876ECAE01607ABBA007EE9B6 /* coin-flip-iosTests-Info.plist */,
+				876ECAE11607ABBA007EE9B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876ECAB21607ABB9007EE9B6 /* coin-flip-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876ECAE91607ABBA007EE9B6 /* Build configuration list for PBXNativeTarget "coin-flip-ios" */;
+			buildPhases = (
+				876ECAAF1607ABB9007EE9B6 /* Sources */,
+				876ECAB01607ABB9007EE9B6 /* Frameworks */,
+				876ECAB11607ABB9007EE9B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "coin-flip-ios";
+			productName = "coin-flip-ios";
+			productReference = 876ECAB31607ABB9007EE9B6 /* coin-flip-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876ECAD61607ABBA007EE9B6 /* coin-flip-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876ECAEC1607ABBA007EE9B6 /* Build configuration list for PBXNativeTarget "coin-flip-iosTests" */;
+			buildPhases = (
+				876ECAD21607ABBA007EE9B6 /* Sources */,
+				876ECAD31607ABBA007EE9B6 /* Frameworks */,
+				876ECAD41607ABBA007EE9B6 /* Resources */,
+				876ECAD51607ABBA007EE9B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876ECADD1607ABBA007EE9B6 /* PBXTargetDependency */,
+			);
+			name = "coin-flip-iosTests";
+			productName = "coin-flip-iosTests";
+			productReference = 876ECAD71607ABBA007EE9B6 /* coin-flip-iosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876ECAAA1607ABB9007EE9B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GM;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "GIT MAD";
+			};
+			buildConfigurationList = 876ECAAD1607ABB9007EE9B6 /* Build configuration list for PBXProject "coin-flip-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 876ECAA81607ABB9007EE9B6;
+			productRefGroup = 876ECAB41607ABB9007EE9B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876ECAB21607ABB9007EE9B6 /* coin-flip-ios */,
+				876ECAD61607ABBA007EE9B6 /* coin-flip-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876ECAB11607ABB9007EE9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876ECAC21607ABB9007EE9B6 /* InfoPlist.strings in Resources */,
+				876ECACB1607ABB9007EE9B6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				876ECACE1607ABB9007EE9B6 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876ECAD41607ABBA007EE9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876ECAE31607ABBA007EE9B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		876ECAD51607ABBA007EE9B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876ECAAF1607ABB9007EE9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876ECAC41607ABB9007EE9B6 /* main.m in Sources */,
+				876ECAC81607ABB9007EE9B6 /* GMAppDelegate.m in Sources */,
+				876ECAD11607ABB9007EE9B6 /* GMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876ECAD21607ABBA007EE9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876ECAE61607ABBA007EE9B6 /* coin_flip_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876ECADD1607ABBA007EE9B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876ECAB21607ABB9007EE9B6 /* coin-flip-ios */;
+			targetProxy = 876ECADC1607ABBA007EE9B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876ECAC01607ABB9007EE9B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876ECAC11607ABB9007EE9B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		876ECAC91607ABB9007EE9B6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876ECACA1607ABB9007EE9B6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		876ECACC1607ABB9007EE9B6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876ECACD1607ABB9007EE9B6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		876ECAE11607ABBA007EE9B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876ECAE21607ABBA007EE9B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876ECAE71607ABBA007EE9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876ECAE81607ABBA007EE9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876ECAEA1607ABBA007EE9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coin-flip-ios/coin-flip-ios-Prefix.pch";
+				INFOPLIST_FILE = "coin-flip-ios/coin-flip-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		876ECAEB1607ABBA007EE9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coin-flip-ios/coin-flip-ios-Prefix.pch";
+				INFOPLIST_FILE = "coin-flip-ios/coin-flip-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		876ECAED1607ABBA007EE9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/coin-flip-ios.app/coin-flip-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coin-flip-ios/coin-flip-ios-Prefix.pch";
+				INFOPLIST_FILE = "coin-flip-iosTests/coin-flip-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		876ECAEE1607ABBA007EE9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/coin-flip-ios.app/coin-flip-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coin-flip-ios/coin-flip-ios-Prefix.pch";
+				INFOPLIST_FILE = "coin-flip-iosTests/coin-flip-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876ECAAD1607ABB9007EE9B6 /* Build configuration list for PBXProject "coin-flip-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876ECAE71607ABBA007EE9B6 /* Debug */,
+				876ECAE81607ABBA007EE9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876ECAE91607ABBA007EE9B6 /* Build configuration list for PBXNativeTarget "coin-flip-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876ECAEA1607ABBA007EE9B6 /* Debug */,
+				876ECAEB1607ABBA007EE9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		876ECAEC1607ABBA007EE9B6 /* Build configuration list for PBXNativeTarget "coin-flip-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876ECAED1607ABBA007EE9B6 /* Debug */,
+				876ECAEE1607ABBA007EE9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876ECAAA1607ABB9007EE9B6 /* Project object */;
+}
